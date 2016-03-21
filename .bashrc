@@ -21,6 +21,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias godesk='cd ~/Desktop'
+alias la='ls -al'
 
 # -------------------------------------------------------------------
 # Directory information 
