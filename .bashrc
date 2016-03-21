@@ -26,7 +26,7 @@ alias la='ls -al'
 #
 # Process 
 #
-alias ps_mem='ps?-eo?"%C?:?%p?:?%z?:?%a"|sort?-k5?-nr'
+alias ps_mem='ps -eo "%C : %p : %z : %a"|sort -k5 -nr'
 alias cpu_core='more /proc/cpuinfo |grep "physical id"|grep "0"|wc -l '
 
 # -------------------------------------------------------------------
