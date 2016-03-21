@@ -7,7 +7,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# ?
+# vim 
 alias vi='vim'
 alias edit=$EDITOR
 export EDITOR= "vim"
@@ -22,6 +22,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias godesk='cd ~/Desktop'
 alias la='ls -al'
+
+#
+# Process 
+#
+alias ps_mem='ps?-eo?"%C?:?%p?:?%z?:?%a"|sort?-k5?-nr'
+alias cpu_core='more /proc/cpuinfo |grep "physical id"|grep "0"|wc -l '
 
 # -------------------------------------------------------------------
 # Directory information 
