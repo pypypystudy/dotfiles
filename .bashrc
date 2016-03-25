@@ -43,3 +43,20 @@ alias tgz='tar -czf' #tar -czf
 alias ugz='tar -xzf' #tar -xzf 
 #alias pwd='pwd && pwd' 
 
+
+-------------------------------------------------------------------
+# Application operation 
+# -------------------------------------------------------------------
+alias start_php='spawn-fcgi -a 127.0.0.1 -p 9000 -u www -g www -f /usr/bin/php-cgi -C 5'
+alias start_nginx='/usr/sbin/nginx'
+
+alias php_start='/etc/init.d/php-fpm start'
+alias php_restart='/etc/init.d/php-fpm restart'
+alias php_stop='/etc/init.d/php-fpm stop'
+
+alias nginx_start='/etc/init.d/nginx start'
+alias nginx_reload='/etc/init.d/nginx reload'
+alias nginx_restart='/etc/init.d/nginx restart'
+alias nginx_stop='/etc/init.d/nginx stop'
+
+
