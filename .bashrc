@@ -22,6 +22,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias godesk='cd ~/Desktop'
 alias la='ls -al'
+alias l='ll'
 
 #
 # Process 
